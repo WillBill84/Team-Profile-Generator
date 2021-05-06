@@ -1,0 +1,85 @@
+:root {
+    --green: #00CDAC;
+    --white: white;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 1.8rem;
+    margin: 0;
+}
+h3 {
+    font-size: 1.3rem;
+}
+
+h4 {
+    font-size: 1rem;
+}
+
+a {
+    color: #666;
+    transition: all ease-in-out 0.5s;
+}
+
+a:hover {
+    color: var(--green);
+    text-decoration: none;
+}
+
+header {
+    background-color: var(--green);
+    color: var(--white);
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 0px 15px #ccc;
+}
+.justify-content-center {
+    width: 100%;
+}
+
+.col-sm-4 { 
+    margin-bottom:30px ;
+}
+
+.teamPanel {
+    min-height: 100%;
+    border: none;
+    box-shadow: 0px 0px 10px #e4e4e4;
+}
+
+.panelHeader {
+    background-color: var(--green);
+    color: var(--white);
+    box-shadow: 0px 4px 7px #ccc;
+    padding: 20px;
+
+}
+
+.panelInfo {
+    padding: 20px;
+    color: #666;
+}
+
+.container {
+    margin: 100px auto;
+    justify-content: space-evenly;
+    display: flex;
+    
+}
+.position {
+    display: flex;
+}
+
+.icons {
+    margin-right:10px ;
+}
+
+/* phone size */
+@media (min-width: 576px){
+.col-sm-4 {
+max-width: 50%;
+}
+}
